@@ -1,0 +1,61 @@
+/* style.css */
+@font-face {
+  font-family:"digital";
+  src: url("Digital_0_9_Weekname.ttf")  
+}
+body { 
+  display: grid;
+  overflow:hidden;
+  height: 95vh;
+  width: 100%;
+  color: white;
+  background-color: black;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;  
+  place-items: center;
+  justify-content: center;
+  align-content: center;
+  font-family : "digital";
+}
+#timeDiv {
+  text-align: center;
+  color:white;
+  font-size: calc(100vw / 8);
+}
+#solarDiv {
+  text-align: center;
+  color:white;
+  font-size: calc(100vw / 12);
+}
+#LunarDiv {
+  text-align: center;
+  color:white;
+  font-size: calc(100vw / 14);
+}
+#lunar_span.LunarBlank {
+  color: white;
+}
+#lunar_span.LunarNormal {
+  color:white;
+}
+.grid_container {
+  display: grid;
+  overflow:hidden;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: black;
+  margin: 0px 0px 0px 0px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;  
+  place-items: center;
+  justify-content: center;
+  align-content: center;  
+}
+
+#wrapper>p {
+  color: white;
+  background-color: black;
+  margin:5px;
+}
+
